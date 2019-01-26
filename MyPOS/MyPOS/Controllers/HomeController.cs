@@ -15,15 +15,19 @@ namespace MyPOS.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Description de l'application MyPOS.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            return View();
+        }
 
+        public ActionResult Management()
+        {
+            ViewBag.Message = "Votre page de gestion.";
             return View();
         }
     }
