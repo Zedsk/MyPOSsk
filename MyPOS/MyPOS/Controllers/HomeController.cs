@@ -30,5 +30,11 @@ namespace MyPOS.Controllers
             ViewBag.Message = "Votre page de gestion.";
             return View();
         }
+
+        public ActionResult Transaction()
+        {
+            ViewBag.Message = "Faites vos transactions.";
+            return View();
+        }
     }
 }
